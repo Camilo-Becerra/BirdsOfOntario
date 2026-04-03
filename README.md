@@ -1,11 +1,27 @@
-# Sample Snack app
+# Birds of Ontario
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+A React Native mobile app that displays real bird sightings across Ontario using the iNaturalist API.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+![Birds of Ontario Screenshot](birds.png)
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## Features
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- Search birds by name
+- Random bird discovery button
+- Bird Catalog showing the 50 most common species in a grid layout
+- Real-time data from the iNaturalist API
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+## Technologies
+
+- React Native
+- Expo
+- iNaturalist REST API
+- FlatList for efficient list rendering
+- Component-based UI architecture
+
+## Key Concepts
+
+- State management with useState
+- API data fetching with fetch()
+- Props-based component design
+- Conditional rendering
